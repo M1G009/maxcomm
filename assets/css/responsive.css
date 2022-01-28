@@ -1,0 +1,238 @@
+@media (max-width: 1200px) {
+    #hero .content_box img {
+        margin-bottom: 30px;
+    }
+
+    #hero .content_box h1 {
+        font-size: 40px;
+    }
+
+    .vision,
+    .about {
+        height: 60vh;
+    }
+
+    section,
+    footer {
+        padding: 50px 0;
+    }
+
+    .blogs_box .categories_box {
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .blogs_box .categories_box select{
+        padding: 5px 12px;
+    }
+
+    .blogs_box .categories_box h4{
+        margin-top: 0px;
+    }
+
+    .blogs_box .categories_box select{
+        font-size: 14px;
+    }
+
+    .blogs_box .categories_box .searchbox input{
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .blogs_box .categories_box .searchbox button{
+        padding: 5px 10px;
+    }
+
+    .blogs_box .img_box .text_box {
+        padding: 15px;
+    }
+
+    .blog_listing h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 991px){
+    .blogs_box .categories_box{
+        margin-bottom: 30px;
+    }
+
+    .blog_listing h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    #header {
+        padding: 25px 0;
+    }
+
+    #hero {
+        min-height: auto;
+    }
+
+    #hero .content_box img {
+        margin-bottom: 0px;
+    }
+
+    #hero .content_box h1 {
+        font-size: 35px;
+    }
+
+    .vision {
+        height: 60vh;
+    }
+
+    section,
+    footer {
+        padding: 40px 0;
+    }
+
+    footer .content_box img {
+        margin-bottom: 25px;
+    }
+
+    .contact_form .form_box .inputsBox div label {
+        font-size: 14px;
+    }
+
+    .contact_form .form_box .inputsBox div {
+        padding: 0px 120px;
+    }
+
+    .contact_form .form_box .inputsBox div label {
+        width: 110px;
+        left: 0px;
+    }
+
+    .contact_form .form_box {
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .contact_form .form_box h3 {
+        margin-bottom: 15px;
+    }
+
+    #hero.blog_listing{
+        padding: 80px 0px 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #header {
+        padding: 20px 0;
+    }
+
+    .contact_form .text_box h1 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .contact_form .form_box .inputsBox div {
+        padding: 0px;
+    }
+
+    .contact_form .form_box .inputsBox div label {
+        position: relative;
+        display: block;
+        width: auto;
+        left: 0px;
+        top: 0px;
+        text-align: left;
+    }
+
+    .blog_listing h1 {
+        font-size: 30px;
+    }
+
+    a.themebtn{
+        padding: 8px 15px;
+    }
+
+    .blog_posting .blog_details .top .back_btn{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .blog_posting .blog_details .img_box img{
+        margin-bottom: 15px;
+    }
+
+    .blog_posting .blog_details{
+        padding: 15px;
+    }
+
+    .blog_posting .blog_details .img_box{
+        padding: 15px;
+    }
+
+    .blog_posting .blog_details .top h3 {
+        font-size: 25px;
+    }
+
+    .blogs_box.blog_posting{
+        padding: 80px 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    #header {
+        padding: 15px 0;
+    }
+
+    section,
+    footer {
+        padding: 30px 0;
+    }
+
+    #hero {
+        padding: 80px 0px;
+    }
+
+    #hero .content_box h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    #hero .content_box p {
+        margin: 0px auto 15px;
+    }
+
+    .vision .content_box h2,
+    .about .content_box h2 {
+        font-size: 30px;
+    }
+
+    .vision .content_box p {
+        font-size: 14px;
+    }
+
+    button.themebtn {
+        padding: 10px 20px;
+    }
+
+    .subcribe .content_box .input_box button {
+        padding: 8px 20px;
+    }
+
+    footer .content_box ul li {
+        margin: 0px 10px;
+    }
+
+    .contact_form .text_box h1 {
+        font-size: 20px;
+    }
+
+    .contact_form .text_box p {
+        font-size: 18px;
+    }
+
+    .contact_form .form_box h3 {
+        font-size: 20px;
+    }
+
+    .blog_listing h1 {
+        font-size: 25px;
+    }
+}

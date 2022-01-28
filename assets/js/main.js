@@ -14,13 +14,6 @@
     $('#header').addClass('header-scrolled');
   }
 
-  // Real view height for mobile devices
-  if (window.matchMedia("(max-width: 767px)").matches) {
-    $('#hero').css({
-      height: $(window).height()
-    });
-  }
-
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {

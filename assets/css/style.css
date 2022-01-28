@@ -38,6 +38,22 @@ button.themebtn {
   color: #ffffff;
 }
 
+a.themebtn {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 12px 24px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #ffffff;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -87,7 +103,7 @@ button.themebtn {
   top: 0;
   padding: 10px 0;
   background: #010503;
-  box-shadow: 0px 0px 15px #0000003b;
+  box-shadow: 0px 0px 15px #ffffff33;
 }
 
 #header .logo h1 {
@@ -124,9 +140,8 @@ button.themebtn {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   max-height: 100%;
-  min-height: 300px;
   overflow: hidden;
   padding: 112px 0px;
   position: relative;
@@ -393,15 +408,15 @@ footer .content_box img {
   filter: brightness(0);
 }
 
-footer .content_box ul{
+footer .content_box ul {
   margin: 0px;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-footer .content_box ul li{
+footer .content_box ul li {
   list-style: none;
   margin: 0px 15px;
 }
@@ -410,4 +425,511 @@ footer .content_box ul li a {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   color: #000000b3;
+}
+
+/*--------------------------------------------------------------
+# Contact Form Section
+--------------------------------------------------------------*/
+#hero.contact_form {
+  background-image: url(../img/contact-bg.png);
+}
+
+#hero.contact_form:before {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.91) 55.73%);
+}
+
+.contact_form {
+  position: relative;
+  z-index: 10;
+  background-color: #ffffff;
+}
+
+.contact_form .text_box {
+  text-align: center;
+}
+
+.contact_form .text_box h1 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.contact_form .text_box p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contact_form .form_box {
+  background: radial-gradient(72.68% 72.68% at 44.17% 44.55%, rgba(0, 0, 0, 0.79) 0%, #000000 100%);
+  box-shadow: 0px 55px 297px rgb(255 255 255 / 3%), 0px 32.384px 154.915px rgb(255 255 255 / 5%),
+    0px 16.632px 72.7056px rgb(255 255 255 / 7%), 0px 6.688px 31.8384px rgb(255 255 255 / 9%),
+    0px 1.496px 13.7808px rgb(255 255 255 / 12%);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.contact_form .form_box h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact_form .form_box .inputsBox div {
+  padding: 0px 150px;
+  position: relative;
+}
+
+.contact_form .form_box .inputsBox div label {
+  position: absolute;
+  display: block;
+  width: 120px;
+  left: 18px;
+  top: 4px;
+  text-align: right;
+}
+
+.contact_form .form_box .inputsBox div input {
+  width: 100%;
+  font-size: 14px;
+  color: #ffffff59;
+  background-color: transparent;
+  padding: 5px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+
+.contact_form .form_box .inputsBox div textarea {
+  width: 100%;
+  font-size: 14px;
+  color: #ffffff59;
+  background-color: transparent;
+  padding: 5px 12px;
+  border: none;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+}
+
+.contact_form .form_box .inputsBox div button {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 2px 0px rgb(0 0 0 / 4%);
+  border-radius: 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  padding: 5px 16px;
+  margin: 15px auto 0px;
+  display: block;
+  border: none;
+}
+
+/*--------------------------------------------------------------
+# Blog Listing Section
+--------------------------------------------------------------*/
+#hero.blog_listing {
+  min-height: auto;
+  background-image: url(../img/blog-listing-bg.png);
+}
+
+#hero.blog_listing:before {
+  content: "";
+  position: absolute;
+  display: block;
+  inset: 0px;
+  background: linear-gradient(180deg, rgba(0, 42, 151, 0) 0%, rgba(0, 7, 27, 0.748) 41.67%, rgba(0, 0, 0, 0.85) 100%);
+  z-index: -1;
+}
+
+.blog_listing h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 49px;
+  margin: 0px;
+}
+
+/*--------------------------------------------------------------
+# Blog Box Section
+--------------------------------------------------------------*/
+.blogs_box {
+  background-image: url(../img/blog-box-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blogs_box .box {
+  margin-bottom: -30px;
+}
+
+.blogs_box .box > div {
+  margin-bottom: 30px;
+}
+
+.blogs_box .img_box {
+  background: #4d4d50;
+  box-shadow: 0px 34px 65px rgb(0 0 0 / 6%);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.blogs_box .img_box img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.blogs_box .img_box .text_box {
+  padding: 24px;
+}
+
+.blogs_box .img_box .text_box h6 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.blogs_box .img_box .text_box h6:hover {
+  color: #ffffff7a;
+}
+
+.blogs_box .img_box .text_box p {
+  font-size: 16px;
+  color: #ffffffe6;
+}
+
+.blogs_box .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.blogs_box .pagination button {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1.375px solid rgba(217, 217, 217, 0.2);
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 0px 5px;
+  width: 45px;
+  height: 45px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffffd9;
+}
+
+.blogs_box .pagination button.active,
+.blogs_box .pagination button:hover {
+  background-color: #ffffff;
+  color: #000000d9;
+}
+
+.blogs_box .categories_box {
+  background: #4d4d50;
+  box-shadow: 0px 34px 65px rgb(0 0 0 / 6%);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 18px;
+  position: sticky;
+  top: 70px;
+}
+
+.blogs_box .categories_box h4 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.blogs_box .categories_box select {
+  background: rgba(148, 148, 148, 0.5);
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 26px;
+  width: 100%;
+  padding: 5px 18px;
+  color: #ffffffe6;
+  margin-bottom: 10px;
+  background-image: url(../img/down.svg);
+  background-position: calc(100% - 15px) 12px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+}
+
+.blogs_box .categories_box .searchbox {
+  display: flex;
+  background: #949494;
+  border: 1px solid #949494;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.blogs_box .categories_box .searchbox input {
+  background: #949494;
+  border: 2px solid #949494;
+  border-radius: 2px;
+  padding: 5px 12px;
+  width: 100%;
+  color: #ffffffd9;
+  box-shadow: none;
+  outline: none;
+}
+
+.blogs_box .categories_box .searchbox button {
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  padding: 5px 15px;
+}
+
+.blogs_box .categories_box .searchbox input::placeholder {
+  color: #ffffffd9;
+}
+
+.blogs_box .categories_box .links a {
+  font-size: 14px;
+  color: #ffffffa6;
+  padding: 7px 10px;
+  display: block;
+  background-color: #4d4e50;
+  border-bottom: 1px solid #0000001f;
+}
+
+/*--------------------------------------------------------------
+# Blog Posting Section
+--------------------------------------------------------------*/
+.blogs_box.blog_posting {
+  background-image: none;
+  padding: 112px 0px;
+}
+
+.blog_posting .blog_details {
+  background: rgba(148, 148, 148, 0.5);
+  box-shadow: 0px 34px 65px rgb(0 0 0 / 6%);
+  border-radius: 20px;
+  padding: 16px 25px;
+}
+
+.blog_posting .blog_details .top {
+  border-bottom: 1px solid #00000033;
+}
+
+.blog_posting .blog_details .top .back_btn {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.blog_posting .blog_details .top h3 {
+  font-size: 30px;
+}
+
+.blog_posting .blog_details .top .dates {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.blog_posting .blog_details .top .dates span {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.blog_posting .blog_details .top .dates i {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.blog_posting .blog_details .img_box {
+  margin-top: 25px;
+  border-radius: 0px;
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0px 20px;
+  border-bottom: 1px solid #00000033;
+}
+
+.blog_posting .blog_details .img_box img {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.blog_posting .blog_details .img_box p {
+  font-size: 16px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.blog_posting .blog_details .artical_box {
+  margin-bottom: 50px;
+}
+
+.blog_posting .blog_details .artical_box h5 {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 20px 0px 12px;
+}
+
+.blog_posting .blog_details .artical_box .box {
+  margin-bottom: -30px;
+}
+
+.blog_posting .blog_details .artical_box .box > div {
+  margin-bottom: 30px;
+}
+
+.blog_posting .blog_details .artical_box img {
+  width: 100%;
+}
+
+.blog_posting .blog_details .artical_box h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.blog_posting .blog_details .artical_box span {
+  font-weight: 100;
+  font-size: 10px;
+}
+
+.blog_posting .blog_details .comment_box {
+  border-bottom: 1px solid #00000033;
+  padding-bottom: 50px;
+}
+
+.blog_posting .blog_details .comment_box .navtab {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.blog_posting .blog_details .comment_box .navtab button {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  transition: 0.4s;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  position: relative;
+}
+
+.blog_posting .blog_details .comment_box .navtab button:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0px;
+  right: 0px;
+  bottom: -6px;
+  border-bottom: 1px solid transparent;
+}
+
+.blog_posting .blog_details .comment_box .navtab button.active,
+.blog_posting .blog_details .comment_box .navtab button:hover {
+  color: #1890ff;
+}
+
+.blog_posting .blog_details .comment_box .navtab button.active:after {
+  border-color: #358af9;
+}
+
+.blog_posting .blog_details .comment_box .sociallinks {
+  padding: 12px 0px;
+}
+
+.blog_posting .blog_details .comment_box .sociallinks span {
+  margin-right: 20px;
+}
+
+.blog_posting .blog_details .comment_box .sociallinks span:nth-child(1) {
+  color: #f24e1e;
+}
+
+.blog_posting .blog_details .comment_box .sociallinks span:nth-child(2) {
+  color: #55acee;
+}
+
+.blog_posting .blog_details .comment_box .sociallinks span:nth-child(3) {
+  color: #1890ff;
+}
+
+.blog_posting .blog_details .comment_box .sociallinks span i {
+  margin-right: 5px;
+}
+
+.blog_posting .blog_details .comment_box .inputbox {
+  display: flex;
+}
+
+.blog_posting .blog_details .comment_box .inputbox i {
+  background: #bfbfbf;
+  border-radius: 2px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.blog_posting .blog_details .comment_box .inputbox textarea {
+  background: #ffffffd6;
+  border: 1px solid #d9d9d9;
+  border-radius: 1px;
+  width: 100%;
+  padding: 3px 10px;
+  font-size: 14px;
+}
+
+.blog_posting .blog_details .comment_box .inputbox button {
+  background: #ffffffd6;
+  box-shadow: 0px 2px 0px #0000000b;
+  border-radius: 1px;
+  padding: 5px 10px;
+  border: none;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.blog_posting .blog_details .comment_box p {
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  margin: 20px 0px 0px;
+  color: #ffffffd9;
+}
+
+.blog_posting .blog_details .artical_box.borderbox {
+  border-bottom: 1px solid #454545;
+}
+
+.blog_posting .blog_details .artical_box .navtab {
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.blog_posting .blog_details .artical_box .navtab button {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  transition: 0.4s;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  position: relative;
+}
+
+.blog_posting .blog_details .artical_box .darkborder {
+  border: 4px solid #00000026;
+  width: 100%;
+  display: block;
+  margin: 50px 0px 25px;
 }
