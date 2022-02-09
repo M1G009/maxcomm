@@ -1,10 +1,85 @@
+@media (min-width: 1600px) {
+    #hero .content_box h1,
+    .vision .content_box h2,
+    .about .content_box h2,
+    .blog_listing h1 {
+        font-size: 4rem;
+    }
+
+    #hero .content_box p,
+    .vision .content_box p {
+        font-size: 1.5rem;
+    }
+
+    a.themebtn{
+        font-size: 1.2rem;
+    }
+
+    button.themebtn{
+        font-size: 1.2rem;
+    }
+
+    .subcribe .content_box h2,
+    .contact_form .text_box h1,
+    .blog_posting .blog_details .top h3 {
+        font-size: 2.5rem;
+    }
+
+    .contact_form .text_box p,
+    .about .content_box p,
+    .blogs_box .img_box .text_box p,
+    footer .content_box ul li a,
+    .blog_posting .blog_details .img_box p,
+    .blog_posting .blog_details .artical_box h5,
+    .blog_posting .blog_details .comment_box .navtab button,
+    .blog_posting .blog_details .comment_box .sociallinks span,
+    .blog_posting .blog_details .comment_box .inputbox textarea,
+    .blog_posting .blog_details .artical_box .navtab button {
+        font-size: 1.5rem;
+    }
+
+    .subcribe .content_box .input_box input,
+    .subcribe .content_box .input_box button,
+    .contact_form .form_box .inputsBox div input,
+    .contact_form .form_box .inputsBox div textarea,
+    .blog_posting .blog_details .top .dates span,
+    .blog_posting .blog_details .artical_box h6,
+    .blog_posting .blog_details .comment_box .inputbox button,
+    .blog_posting .blog_details .comment_box p {
+        font-size: 1.2rem;
+    }
+
+    .contact_form .form_box h3{
+        font-size: 2.2rem;
+    }
+
+    .blogs_box .img_box .text_box h6,
+    .blogs_box .categories_box h4{
+        font-size: 1.75rem;
+    }
+
+    .blogs_box .categories_box select,
+    .blogs_box .categories_box .searchbox input,
+    .blogs_box .categories_box .links a{
+        font-size: 1.2rem;
+    }
+
+    .blog_posting .blog_details .img_box img{
+        width: 900px;
+    }
+
+    .blog_posting .blog_details .artical_box span{
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 1200px) {
     #hero .content_box img {
         margin-bottom: 30px;
     }
 
     #hero .content_box h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .vision,
@@ -19,7 +94,7 @@
 
     .blogs_box .categories_box {
         padding: 15px;
-        border-radius: 12px;
+        border-radius: 0px;
     }
 
     .blogs_box .categories_box select{
@@ -31,12 +106,12 @@
     }
 
     .blogs_box .categories_box select{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
 
     .blogs_box .categories_box .searchbox input{
         padding: 5px;
-        font-size: 14px;
+        font-size: 0.8rem;
     }
 
     .blogs_box .categories_box .searchbox button{
@@ -48,7 +123,7 @@
     }
 
     .blog_listing h1{
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 }
 
@@ -58,7 +133,7 @@
     }
 
     .blog_listing h1{
-        font-size: 35px;
+        font-size: 2rem;
     }
 }
 
@@ -76,7 +151,7 @@
     }
 
     #hero .content_box h1 {
-        font-size: 35px;
+        font-size: 2rem;
     }
 
     .vision {
@@ -93,7 +168,7 @@
     }
 
     .contact_form .form_box .inputsBox div label {
-        font-size: 14px;
+        font-size: 0.8rem;
     }
 
     .contact_form .form_box .inputsBox div {
@@ -106,7 +181,7 @@
     }
 
     .contact_form .form_box {
-        border-radius: 15px;
+        border-radius: 0px;
         padding: 15px;
     }
 
@@ -125,7 +200,7 @@
     }
 
     .contact_form .text_box h1 {
-        font-size: 25px;
+        font-size: 1.5rem;
         margin-bottom: 15px;
     }
 
@@ -143,7 +218,7 @@
     }
 
     .blog_listing h1 {
-        font-size: 30px;
+        font-size: 1.8rem;
     }
 
     a.themebtn{
@@ -152,7 +227,7 @@
 
     .blog_posting .blog_details .top .back_btn{
         margin-bottom: 5px;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .blog_posting .blog_details .img_box img{
@@ -168,7 +243,7 @@
     }
 
     .blog_posting .blog_details .top h3 {
-        font-size: 25px;
+        font-size: 1.5rem;
     }
 
     .blogs_box.blog_posting{
@@ -191,7 +266,7 @@
     }
 
     #hero .content_box h1 {
-        font-size: 30px;
+        font-size: 1.8rem;
         margin-bottom: 15px;
     }
 
@@ -201,11 +276,11 @@
 
     .vision .content_box h2,
     .about .content_box h2 {
-        font-size: 30px;
+        font-size: 1.8rem;
     }
 
     .vision .content_box p {
-        font-size: 14px;
+        font-size: 0.8rem;
     }
 
     button.themebtn {
@@ -221,18 +296,18 @@
     }
 
     .contact_form .text_box h1 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .contact_form .text_box p {
-        font-size: 18px;
+        font-size: 1.1rem;
     }
 
     .contact_form .form_box h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .blog_listing h1 {
-        font-size: 25px;
+        font-size: 1.5rem;
     }
 }

@@ -29,25 +29,37 @@ h6 {
 
 button.themebtn {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.8rem;
   letter-spacing: 0.5px;
   padding: 12px 24px;
   border: 1px solid #ffffff;
-  border-radius: 4px;
+  border-radius: 0px;
   background-color: transparent;
   color: #ffffff;
+  transition: 0.4s;
+}
+
+button.themebtn:hover {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 a.themebtn {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.8rem;
   letter-spacing: 0.5px;
   padding: 12px 24px;
   border: 1px solid #ffffff;
-  border-radius: 4px;
+  border-radius: 0px;
   background-color: transparent;
   color: #ffffff;
   display: inline-block;
+  transition: 0.4s;
+}
+
+a.themebtn:hover {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 img {
@@ -69,10 +81,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 0px;
   background: #08090c;
   box-shadow: 0px 0px 10px #ffffff3b;
   color: #fff;
@@ -107,7 +119,7 @@ img {
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 1.75rem;
   margin: 0;
   line-height: 1;
   font-weight: 400;
@@ -180,12 +192,12 @@ img {
 
 #hero .content_box h1 {
   font-weight: 500;
-  font-size: 48px;
+  font-size: 3rem;
   margin-bottom: 30px;
 }
 
 #hero .content_box p {
-  font-size: 16px;
+  font-size: 1rem;
   width: 500px;
   max-width: 100%;
   margin: 0px auto 30px;
@@ -217,7 +229,7 @@ footer {
 }
 
 .breadcrumbs h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
   margin: 0;
 }
@@ -234,7 +246,7 @@ footer {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 0.8rem;
 }
 
 .breadcrumbs ol li + li {
@@ -294,13 +306,13 @@ footer {
 
 .vision .content_box h2 {
   font-weight: 500;
-  font-size: 48px;
+  font-size: 3rem;
   margin-bottom: 15px;
 }
 
 .vision .content_box p {
   color: rgba(255, 255, 255, 0.85);
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 15px;
 }
 
@@ -331,13 +343,13 @@ footer {
 
 .about .content_box h2 {
   font-weight: 500;
-  font-size: 48px;
+  font-size: 3rem;
   margin-bottom: 15px;
 }
 
 .about .content_box p {
   color: rgba(255, 255, 255, 0.85);
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 15px;
 }
 
@@ -351,19 +363,19 @@ footer {
 
 .subcribe .content_box {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 1.8rem;
   text-align: center;
 }
 
 .subcribe .content_box h2 {
   margin-bottom: 45px;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 
 .subcribe .content_box .input_box {
   background: rgba(148, 148, 148, 0.5);
-  border-radius: 8px;
+  border-radius: 0px;
   display: flex;
   align-items: center;
   width: 550px;
@@ -373,14 +385,14 @@ footer {
 }
 
 .subcribe .content_box .input_box i {
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #ffffff7d;
   margin-left: 10px;
 }
 
 .subcribe .content_box .input_box input {
   width: 100%;
-  font-size: 14px;
+  font-size: 0.8rem;
   color: #ffffff7d;
   background-color: transparent;
   border: none;
@@ -390,10 +402,10 @@ footer {
 
 .subcribe .content_box .input_box button {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.8rem;
   padding: 12px 44px;
   background: #ffffff;
-  border-radius: 4px;
+  border-radius: 0px;
   border: none;
 }
 
@@ -430,7 +442,7 @@ footer .content_box ul li {
 
 footer .content_box ul li a {
   font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-size: 0.8rem;
   color: #000000b3;
 }
 
@@ -458,20 +470,18 @@ footer .content_box ul li a {
 .contact_form .text_box h1 {
   margin-bottom: 30px;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 
 .contact_form .text_box p {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .contact_form .form_box {
-  background: radial-gradient(72.68% 72.68% at 44.17% 44.55%, rgba(0, 0, 0, 0.79) 0%, #000000 100%);
-  box-shadow: 0px 55px 297px rgb(255 255 255 / 3%), 0px 32.384px 154.915px rgb(255 255 255 / 5%),
-    0px 16.632px 72.7056px rgb(255 255 255 / 7%), 0px 6.688px 31.8384px rgb(255 255 255 / 9%),
-    0px 1.496px 13.7808px rgb(255 255 255 / 12%);
-  border-radius: 30px;
+  background-color: #000000;
+  box-shadow: none;
+  border-radius: 0px;
   padding: 30px;
 }
 
@@ -498,9 +508,9 @@ footer .content_box ul li a {
   padding: 5px 12px;
   margin-bottom: 24px;
   background: rgba(148, 148, 148, 0.5);
-  border-radius: 8px;
+  border-radius: 0px;
   width: 100%;
-  font-size: 14px;
+  font-size: 0.8rem;
   color: #ffffff7d;
   border: none;
   outline: none;
@@ -510,9 +520,9 @@ footer .content_box ul li a {
   padding: 5px 12px;
   margin-bottom: 24px;
   background: rgba(148, 148, 148, 0.5);
-  border-radius: 8px;
+  border-radius: 0px;
   width: 100%;
-  font-size: 14px;
+  font-size: 0.8rem;
   color: #ffffff7d;
   border: none;
   outline: none;
@@ -521,8 +531,8 @@ footer .content_box ul li a {
 .contact_form .form_box .inputsBox div button {
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0px 2px 0px rgb(0 0 0 / 4%);
-  border-radius: 10px;
-  font-size: 14px;
+  border-radius: 0px;
+  font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.65);
   padding: 5px 16px;
   margin: 15px auto 0px;
@@ -550,7 +560,7 @@ footer .content_box ul li a {
 .blog_listing h1 {
   text-align: center;
   font-weight: 600;
-  font-size: 49px;
+  font-size: 3rem;
   margin: 0px;
 }
 
@@ -575,7 +585,7 @@ footer .content_box ul li a {
 .blogs_box .img_box {
   background: #4d4d50;
   box-shadow: 0px 34px 65px rgb(0 0 0 / 6%);
-  border-radius: 20px;
+  border-radius: 0px;
   overflow: hidden;
   height: 100%;
 }
@@ -591,7 +601,7 @@ footer .content_box ul li a {
 
 .blogs_box .img_box .text_box h6 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ffffff;
 }
 
@@ -600,7 +610,7 @@ footer .content_box ul li a {
 }
 
 .blogs_box .img_box .text_box p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #ffffffe6;
 }
 
@@ -615,11 +625,11 @@ footer .content_box ul li a {
   background: rgba(255, 255, 255, 0.5);
   border: 1.375px solid rgba(217, 217, 217, 0.2);
   box-sizing: border-box;
-  border-radius: 3px;
+  border-radius: 0px;
   margin: 0px 5px;
   width: 45px;
   height: 45px;
-  font-size: 14px;
+  font-size: 0.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -635,7 +645,7 @@ footer .content_box ul li a {
 .blogs_box .categories_box {
   background: #4d4d50;
   box-shadow: 0px 34px 65px rgb(0 0 0 / 6%);
-  border-radius: 20px;
+  border-radius: 0px;
   overflow: hidden;
   padding: 18px;
   position: sticky;
@@ -644,7 +654,7 @@ footer .content_box ul li a {
 
 .blogs_box .categories_box h4 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-top: 10px;
 }
 
@@ -652,7 +662,7 @@ footer .content_box ul li a {
   background: rgba(148, 148, 148, 0.5);
   border: 1px solid #d9d9d9;
   box-sizing: border-box;
-  border-radius: 26px;
+  border-radius: 0px;
   width: 100%;
   padding: 5px 18px;
   color: #ffffffe6;
@@ -668,14 +678,14 @@ footer .content_box ul li a {
   display: flex;
   background: #949494;
   border: 1px solid #949494;
-  border-radius: 2px;
+  border-radius: 0px;
   margin-bottom: 20px;
 }
 
 .blogs_box .categories_box .searchbox input {
   background: #949494;
   border: 2px solid #949494;
-  border-radius: 2px;
+  border-radius: 0px;
   padding: 5px 12px;
   width: 100%;
   color: #ffffffd9;
@@ -695,7 +705,7 @@ footer .content_box ul li a {
 }
 
 .blogs_box .categories_box .links a {
-  font-size: 14px;
+  font-size: 0.8rem;
   color: #ffffffa6;
   padding: 7px 10px;
   display: block;
@@ -714,7 +724,7 @@ footer .content_box ul li a {
 .blog_posting .blog_details {
   background: rgba(148, 148, 148, 0.5);
   box-shadow: 0px 34px 65px rgb(0 0 0 / 6%);
-  border-radius: 20px;
+  border-radius: 0px;
   padding: 16px 25px;
 }
 
@@ -724,12 +734,12 @@ footer .content_box ul li a {
 
 .blog_posting .blog_details .top .back_btn {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ffffff;
 }
 
 .blog_posting .blog_details .top h3 {
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 
 .blog_posting .blog_details .top .dates {
@@ -766,7 +776,7 @@ footer .content_box ul li a {
 }
 
 .blog_posting .blog_details .img_box p {
-  font-size: 16px;
+  font-size: 1rem;
   text-align: justify;
   color: #ffffff;
 }
@@ -777,7 +787,7 @@ footer .content_box ul li a {
 
 .blog_posting .blog_details .artical_box h5 {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.8rem;
   margin: 20px 0px 12px;
 }
 
@@ -820,7 +830,7 @@ footer .content_box ul li a {
 
 .blog_posting .blog_details .comment_box .navtab button {
   margin-right: 20px;
-  font-size: 16px;
+  font-size: 1rem;
   color: #ffffff;
   transition: 0.4s;
   border: none;
@@ -878,7 +888,7 @@ footer .content_box ul li a {
 
 .blog_posting .blog_details .comment_box .inputbox i {
   background: #bfbfbf;
-  border-radius: 2px;
+  border-radius: 0px;
   width: 25px;
   height: 25px;
   display: flex;
@@ -890,19 +900,19 @@ footer .content_box ul li a {
 .blog_posting .blog_details .comment_box .inputbox textarea {
   background: #ffffffd6;
   border: 1px solid #d9d9d9;
-  border-radius: 1px;
+  border-radius: 0px;
   width: 100%;
   padding: 3px 10px;
-  font-size: 14px;
+  font-size: 0.8rem;
 }
 
 .blog_posting .blog_details .comment_box .inputbox button {
   background: #ffffffd6;
   box-shadow: 0px 2px 0px #0000000b;
-  border-radius: 1px;
+  border-radius: 0px;
   padding: 5px 10px;
   border: none;
-  font-size: 14px;
+  font-size: 0.8rem;
   color: #000000;
   margin-top: 20px;
 }
@@ -927,7 +937,7 @@ footer .content_box ul li a {
 
 .blog_posting .blog_details .artical_box .navtab button {
   margin-right: 20px;
-  font-size: 16px;
+  font-size: 1rem;
   color: #ffffff;
   transition: 0.4s;
   border: none;
